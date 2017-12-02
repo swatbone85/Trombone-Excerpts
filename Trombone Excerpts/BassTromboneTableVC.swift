@@ -16,6 +16,7 @@ class BassTromboneTableVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setupNavBar()
     }
 
     // cellForRow
@@ -59,6 +60,12 @@ class BassTromboneTableVC: UITableViewController {
         
         destVC?.title = "\(chosenPiece) (\(chosenComposer))"
         destVC?.pdfTitle = "\(chosenPiece) (\(chosenComposer)) Bass"
+    }
+    
+    func setupNavBar() {
+        if #available(iOS 11.0, *) {
+            navigationController?.navigationBar.prefersLargeTitles = true
+        }
     }
 
 }

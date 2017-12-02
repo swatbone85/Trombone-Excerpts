@@ -95,14 +95,3 @@ let bassTromboneArray: [Excerpt] = [Excerpt.init(composer: "Beethoven",
                                                           "Lohengrin",
                                                           "Ride of the Valkyries",
                                                           "Tannhauser Overture"])]
-
-//VIDEOS
-
-let videoArray: [String] = ["B3wRYURYbwo", "B3wRYURYbwo", "B3wRYURYbwo"]
-
-
-
-
-
-
-

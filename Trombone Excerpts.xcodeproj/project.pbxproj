@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		453DCE3C1F5EEC470014ADCF /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DCE3B1F5EEC470014ADCF /* MyCell.swift */; };
 		45519E6E1F436DC300FB5BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */; };
 		45519E701F436DC300FB5BA4 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E6F1F436DC300FB5BA4 /* TableVC.swift */; };
 		45519E731F436DC400FB5BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45519E711F436DC400FB5BA4 /* Main.storyboard */; };
@@ -56,7 +55,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		453DCE3B1F5EEC470014ADCF /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		45519E6A1F436DC200FB5BA4 /* Trombone Excerpts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trombone Excerpts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45519E6F1F436DC300FB5BA4 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 				45519E6F1F436DC300FB5BA4 /* TableVC.swift */,
 				E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */,
 				45519E8B1F43801500FB5BA4 /* PDFViewer.swift */,
-				453DCE3B1F5EEC470014ADCF /* MyCell.swift */,
 				45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */,
 				45519E711F436DC400FB5BA4 /* Main.storyboard */,
 				45519E741F436DC400FB5BA4 /* Assets.xcassets */,
@@ -495,7 +492,6 @@
 				E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */,
 				45519E701F436DC300FB5BA4 /* TableVC.swift in Sources */,
 				45519E801F4371E900FB5BA4 /* ExcerptList.swift in Sources */,
-				453DCE3C1F5EEC470014ADCF /* MyCell.swift in Sources */,
 				45519E8C1F43801500FB5BA4 /* PDFViewer.swift in Sources */,
 				45519E6E1F436DC300FB5BA4 /* AppDelegate.swift in Sources */,
 			);

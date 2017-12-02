@@ -12,7 +12,6 @@ class TableViewController: UITableViewController {
     
     var chosenComposer = String()
     var chosenPiece = String()
-    var chosenVideoCode = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +48,6 @@ class TableViewController: UITableViewController {
         
         chosenComposer = excerptArray[indexPath.section].composer
         chosenPiece = excerptArray[indexPath.section].pieces[indexPath.row]
-        chosenVideoCode = "B3wRYURYbwo"
         
         performSegue(withIdentifier: "tenorSegue", sender: self)
         

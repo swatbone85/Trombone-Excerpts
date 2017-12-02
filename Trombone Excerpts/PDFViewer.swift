@@ -8,13 +8,12 @@
 
 import UIKit
 
-class PDFViewer: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class PDFViewer: UIViewController {
 
     var pdfTitle = String()
     var videoCode = String()
     
     @IBOutlet weak var pdfViewer: UIWebView!
-    @IBOutlet weak var videoCV: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,22 +26,6 @@ class PDFViewer: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         let activityVC = UIActivityViewController(activityItems: [(pdfViewer.request?.url?.absoluteURL)! as URL], applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.view
         self.present(activityVC, animated: true, completion: nil)
-        
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return videoArray.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! MyCell
-        
-        cell.videoViewer.loadHTMLString("<iframe width=\"\(cell.videoViewer.frame.width)\" height=\"\(cell.videoViewer.frame.height)\" src=\"https://www.youtube.com/embed/B3wRYURYbwo?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe>", baseURL: nil)
-        cell.videoViewer.scrollView.isScrollEnabled = false
-        cell.videoViewer.scrollView.contentInset = UIEdgeInsetsMake(-8.0, -8.0, -8.0, -8.0)
-        videoCV.isPagingEnabled = true
-        
-        return cell
         
     }
     
