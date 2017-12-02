@@ -12,10 +12,12 @@ class TableViewController: UITableViewController {
     
     var chosenComposer = String()
     var chosenPiece = String()
+    var chosenVideoCode = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        setupNavBar()
     }
     
     // cellForRow
@@ -39,7 +41,7 @@ class TableViewController: UITableViewController {
 
     // titleForHeader
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return excerptArray[section].composer
+        return "\(excerptArray[section].composer.uppercased()), \(excerptArray[section].firstName)"
     }
     
     // didSelectRow
@@ -47,6 +49,7 @@ class TableViewController: UITableViewController {
         
         chosenComposer = excerptArray[indexPath.section].composer
         chosenPiece = excerptArray[indexPath.section].pieces[indexPath.row]
+        chosenVideoCode = "B3wRYURYbwo"
         
         performSegue(withIdentifier: "tenorSegue", sender: self)
         
@@ -60,7 +63,13 @@ class TableViewController: UITableViewController {
         destVC?.title = "\(chosenPiece) (\(chosenComposer))"
         destVC?.pdfTitle = "\(chosenPiece) (\(chosenComposer)) tenor"
         
+        
     }
-
+    
+    func setupNavBar() {
+        if #available(iOS 11.0, *) {
+            navigationController?.navigationBar.prefersLargeTitles = true
+        }
+    }
 }
 

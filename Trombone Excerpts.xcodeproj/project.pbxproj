@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453DCE3C1F5EEC470014ADCF /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DCE3B1F5EEC470014ADCF /* MyCell.swift */; };
 		45519E6E1F436DC300FB5BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */; };
 		45519E701F436DC300FB5BA4 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E6F1F436DC300FB5BA4 /* TableVC.swift */; };
 		45519E731F436DC400FB5BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45519E711F436DC400FB5BA4 /* Main.storyboard */; };
@@ -50,10 +51,12 @@
 		45BD34881F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34531F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf */; };
 		45BD34891F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */; };
 		45BD348C1F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */; };
+		45FD7F841F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */; };
 		E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		453DCE3B1F5EEC470014ADCF /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		45519E6A1F436DC200FB5BA4 /* Trombone Excerpts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trombone Excerpts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45519E6F1F436DC300FB5BA4 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
@@ -99,6 +102,7 @@
 		45BD34531F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lohengrin act 3 (Wagner) tenor.pdf"; sourceTree = "<group>"; };
 		45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ride of the Valkyries (Wagner) tenor.pdf"; sourceTree = "<group>"; };
 		45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tannhauser Overture (Wagner) tenor.pdf"; sourceTree = "<group>"; };
+		45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Academic Festival Overture (Brahms) tenor.pdf"; sourceTree = "<group>"; };
 		E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BassTromboneTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +149,7 @@
 				45519E6F1F436DC300FB5BA4 /* TableVC.swift */,
 				E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */,
 				45519E8B1F43801500FB5BA4 /* PDFViewer.swift */,
+				453DCE3B1F5EEC470014ADCF /* MyCell.swift */,
 				45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */,
 				45519E711F436DC400FB5BA4 /* Main.storyboard */,
 				45519E741F436DC400FB5BA4 /* Assets.xcassets */,
@@ -299,6 +304,7 @@
 		45BD34331F4D87E900762866 /* Brahms */ = {
 			isa = PBXGroup;
 			children = (
+				45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */,
 				45BD34341F4D87E900762866 /* Symphony no. 1 (Brahms) tenor.pdf */,
 				45BD34361F4D87EA00762866 /* Symphony no. 2 (Brahms) tenor.pdf */,
 				45BD34381F4D87EA00762866 /* Symphony no. 3 (Brahms) tenor.pdf */,
@@ -402,12 +408,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Thomas Swatland";
 				TargetAttributes = {
 					45519E691F436DC200FB5BA4 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 5PY55DGNG5;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -439,6 +446,7 @@
 				45BD34581F4D87EA00762866 /* Symphony no. 9 (Beethoven) Bass.pdf in Resources */,
 				45BD34791F4D87EA00762866 /* Symphony no. 3 (Mahler) tenor.pdf in Resources */,
 				45BD346A1F4D87EA00762866 /* Symphony no. 9 (Beethoven) tenor.pdf in Resources */,
+				45FD7F841F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf in Resources */,
 				45BD34661F4D87EA00762866 /* Fidelio Overture (Beethoven) tenor.pdf in Resources */,
 				45BD34641F4D87EA00762866 /* Ride of the Valkyries (Wagner) Bass.pdf in Resources */,
 				45BD34601F4D87EA00762866 /* William Tell Overture (Rossini) Bass.pdf in Resources */,
@@ -487,6 +495,7 @@
 				E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */,
 				45519E701F436DC300FB5BA4 /* TableVC.swift in Sources */,
 				45519E801F4371E900FB5BA4 /* ExcerptList.swift in Sources */,
+				453DCE3C1F5EEC470014ADCF /* MyCell.swift in Sources */,
 				45519E8C1F43801500FB5BA4 /* PDFViewer.swift in Sources */,
 				45519E6E1F436DC300FB5BA4 /* AppDelegate.swift in Sources */,
 			);
@@ -516,7 +525,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -524,7 +535,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -566,7 +581,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -574,7 +591,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -609,7 +630,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Swatland-Development.Trombone-Excerpts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -624,7 +646,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Swatland-Development.Trombone-Excerpts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -18,7 +18,7 @@ class BassTromboneTableVC: UITableViewController {
 
     }
 
-    //cellForRow
+    // cellForRow
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
@@ -39,7 +39,7 @@ class BassTromboneTableVC: UITableViewController {
     
     // titleForHeader
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return bassTromboneArray[section].composer
+        return "\(bassTromboneArray[section].composer.uppercased()), \(bassTromboneArray[section].firstName)"
     }
     
     // didSelectRow
