@@ -13,47 +13,44 @@ class TableViewController: UITableViewController {
     var chosenComposer = String()
     var chosenPiece = String()
     
+    let cellId = "cellId"
+    let segueId = "tenorSegue"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupNavBar()
     }
     
-    // cellForRow
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId)!
         
         cell.textLabel?.text = excerptArray[indexPath.section].pieces[indexPath.row]
         
         return cell
     }
     
-    // numberOfRows
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return excerptArray[section].pieces.count
     }
     
-    // numberOfSections
     override func numberOfSections(in tableView: UITableView) -> Int {
         return excerptArray.count
     }
 
-    // titleForHeader
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "\(excerptArray[section].composer.uppercased()), \(excerptArray[section].firstName)"
     }
     
-    // didSelectRow
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         chosenComposer = excerptArray[indexPath.section].composer
         chosenPiece = excerptArray[indexPath.section].pieces[indexPath.row]
         
-        performSegue(withIdentifier: "tenorSegue", sender: self)
+        performSegue(withIdentifier: segueId, sender: self)
         
     }
     
-    // prepareSegue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let destVC = segue.destination as? PDFViewer

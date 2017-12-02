@@ -12,6 +12,9 @@ class BassTromboneTableVC: UITableViewController {
     
     var chosenComposer = String()
     var chosenPiece = String()
+    
+    let cellId = "cellId"
+    let segueId = "bassSegue"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +24,7 @@ class BassTromboneTableVC: UITableViewController {
 
     // cellForRow
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         
         cell.textLabel?.text = bassTromboneArray[indexPath.section].pieces[indexPath.row]
         
@@ -49,7 +52,7 @@ class BassTromboneTableVC: UITableViewController {
         chosenComposer = bassTromboneArray[indexPath.section].composer
         chosenPiece = bassTromboneArray[indexPath.section].pieces[indexPath.row]
         
-        performSegue(withIdentifier: "bassSegue", sender: self)
+        performSegue(withIdentifier: segueId, sender: self)
         
     }
 
