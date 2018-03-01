@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import FirebaseStorage
 
 class PDFViewer: UIViewController {
-
+    
+    var storage = Storage()
+    var filePath = String()
     var pdfTitle = String()
-    var videoCode = String()
     
     @IBOutlet weak var pdfViewer: UIWebView!
     
@@ -30,9 +32,23 @@ class PDFViewer: UIViewController {
     }
     
     func loadPDF() {
-        let pdfPath = URL(fileURLWithPath: Bundle.main.path(forResource: pdfTitle, ofType: ".pdf")!)
-        let pdfRequest = URLRequest(url: pdfPath)
-        pdfViewer.loadRequest(pdfRequest)
+        
+        storage = Storage.storage()
+        let fileRef = storage.reference().child("Trombone").child(filePath)
+        
+        fileRef.downloadURL { url, err in
+            if err != nil {
+                // Do error handling
+                print("error")
+            } else {
+                guard let url = url else { return }
+                let pdfRequest = URLRequest(url: url)
+                self.pdfViewer.loadRequest(pdfRequest)
+            }
+        }
+        
+        
+        
         
     }
 

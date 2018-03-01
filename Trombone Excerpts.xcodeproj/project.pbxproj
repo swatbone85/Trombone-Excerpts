@@ -50,6 +50,8 @@
 		45BD34881F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34531F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf */; };
 		45BD34891F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */; };
 		45BD348C1F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */; };
+		45E19CAF204811ED0084A68A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E19CAE204811ED0084A68A /* GoogleService-Info.plist */; };
+		45E19CB2204827F30084A68A /* Excerpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E19CB1204827F30084A68A /* Excerpt.swift */; };
 		45FD7F841F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */; };
 		E546E2E9341432074171D52A /* Pods_Trombone_Excerpts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */; };
 		E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */; };
@@ -102,6 +104,8 @@
 		45BD34531F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lohengrin act 3 (Wagner) tenor.pdf"; sourceTree = "<group>"; };
 		45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ride of the Valkyries (Wagner) tenor.pdf"; sourceTree = "<group>"; };
 		45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tannhauser Overture (Wagner) tenor.pdf"; sourceTree = "<group>"; };
+		45E19CAE204811ED0084A68A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45E19CB1204827F30084A68A /* Excerpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excerpt.swift; sourceTree = "<group>"; };
 		45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Academic Festival Overture (Brahms) tenor.pdf"; sourceTree = "<group>"; };
 		48B35E053A8BA63F98A91C68 /* Pods-Trombone Excerpts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trombone Excerpts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts.debug.xcconfig"; sourceTree = "<group>"; };
 		86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trombone_Excerpts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +154,7 @@
 		45519E6C1F436DC200FB5BA4 /* Trombone Excerpts */ = {
 			isa = PBXGroup;
 			children = (
+				45E19CB0204827D90084A68A /* Models */,
 				45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */,
 				45519E6F1F436DC300FB5BA4 /* TableVC.swift */,
 				E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */,
@@ -158,6 +163,7 @@
 				45519E711F436DC400FB5BA4 /* Main.storyboard */,
 				45519E741F436DC400FB5BA4 /* Assets.xcassets */,
 				45519E791F436DC600FB5BA4 /* Info.plist */,
+				45E19CAE204811ED0084A68A /* GoogleService-Info.plist */,
 				45519E931F43973100FB5BA4 /* LaunchScreen.storyboard */,
 				454F9B1A1F44B2C90053D6C4 /* PDF */,
 			);
@@ -385,6 +391,14 @@
 			path = Wagner;
 			sourceTree = "<group>";
 		};
+		45E19CB0204827D90084A68A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45E19CB1204827F30084A68A /* Excerpt.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		68D7C1CBDF38570F9326A8C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,6 +519,7 @@
 				45BD347D1F4D87EA00762866 /* Requiem (Mozart) tenor.pdf in Resources */,
 				45BD345F1F4D87EA00762866 /* La Gazza Ladra (Rossini) Bass.pdf in Resources */,
 				45519E731F436DC400FB5BA4 /* Main.storyboard in Resources */,
+				45E19CAF204811ED0084A68A /* GoogleService-Info.plist in Resources */,
 				45BD34751F4D87EA00762866 /* Symphony no. 3 (Brahms) tenor.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +596,7 @@
 				45519E801F4371E900FB5BA4 /* ExcerptList.swift in Sources */,
 				45519E8C1F43801500FB5BA4 /* PDFViewer.swift in Sources */,
 				45519E6E1F436DC300FB5BA4 /* AppDelegate.swift in Sources */,
+				45E19CB2204827F30084A68A /* Excerpt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +718,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
