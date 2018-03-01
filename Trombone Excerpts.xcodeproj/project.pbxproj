@@ -51,10 +51,12 @@
 		45BD34891F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */; };
 		45BD348C1F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */; };
 		45FD7F841F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */; };
+		E546E2E9341432074171D52A /* Pods_Trombone_Excerpts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */; };
 		E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E0DCDB7711B8C7F4D473ECD /* Pods-Trombone Excerpts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trombone Excerpts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts.release.xcconfig"; sourceTree = "<group>"; };
 		45519E6A1F436DC200FB5BA4 /* Trombone Excerpts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trombone Excerpts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45519E6F1F436DC300FB5BA4 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
@@ -101,6 +103,8 @@
 		45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ride of the Valkyries (Wagner) tenor.pdf"; sourceTree = "<group>"; };
 		45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tannhauser Overture (Wagner) tenor.pdf"; sourceTree = "<group>"; };
 		45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Academic Festival Overture (Brahms) tenor.pdf"; sourceTree = "<group>"; };
+		48B35E053A8BA63F98A91C68 /* Pods-Trombone Excerpts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trombone Excerpts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts.debug.xcconfig"; sourceTree = "<group>"; };
+		86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trombone_Excerpts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BassTromboneTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E546E2E9341432074171D52A /* Pods_Trombone_Excerpts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +134,8 @@
 			children = (
 				45519E6C1F436DC200FB5BA4 /* Trombone Excerpts */,
 				45519E6B1F436DC200FB5BA4 /* Products */,
+				CB0613DC821A503B58C94155 /* Pods */,
+				68D7C1CBDF38570F9326A8C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -378,6 +385,23 @@
 			path = Wagner;
 			sourceTree = "<group>";
 		};
+		68D7C1CBDF38570F9326A8C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0613DC821A503B58C94155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48B35E053A8BA63F98A91C68 /* Pods-Trombone Excerpts.debug.xcconfig */,
+				3E0DCDB7711B8C7F4D473ECD /* Pods-Trombone Excerpts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -385,9 +409,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45519E7C1F436DC600FB5BA4 /* Build configuration list for PBXNativeTarget "Trombone Excerpts" */;
 			buildPhases = (
+				C10AF213162646C0BC42C0F8 /* [CP] Check Pods Manifest.lock */,
 				45519E661F436DC200FB5BA4 /* Sources */,
 				45519E671F436DC200FB5BA4 /* Frameworks */,
 				45519E681F436DC200FB5BA4 /* Resources */,
+				974793DC122BB0F504FE80FB /* [CP] Embed Pods Frameworks */,
+				D539E1790CC7111548EA9AC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -405,7 +432,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Thomas Swatland";
 				TargetAttributes = {
 					45519E691F436DC200FB5BA4 = {
@@ -484,6 +511,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		974793DC122BB0F504FE80FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10AF213162646C0BC42C0F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trombone Excerpts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D539E1790CC7111548EA9AC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45519E661F436DC200FB5BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -525,6 +612,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -532,6 +620,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -581,6 +670,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -588,6 +678,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -611,6 +702,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -618,6 +710,7 @@
 		};
 		45519E7D1F436DC600FB5BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B35E053A8BA63F98A91C68 /* Pods-Trombone Excerpts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PY55DGNG5;
@@ -634,6 +727,7 @@
 		};
 		45519E7E1F436DC600FB5BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0DCDB7711B8C7F4D473ECD /* Pods-Trombone Excerpts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5PY55DGNG5;
