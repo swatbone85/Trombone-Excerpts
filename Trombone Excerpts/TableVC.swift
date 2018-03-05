@@ -45,7 +45,7 @@ class TableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "\(excerpts[section].composer), \(excerpts[section].firstName)"
+        return "\(excerpts[section].composer)"
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -63,10 +63,9 @@ class TableViewController: UITableViewController {
         
         let destVC = segue.destination as? PDFViewer
         
-        destVC?.title = "\(chosenPiece) (\(chosenComposer))"
+        destVC?.title = "\(chosenPiece)"
         destVC?.filePath = "\(chosenComposer)/\(chosenPiece) (\(chosenComposer)).pdf"
-        
-        
+        destVC?.instrument = "Trombone"
     }
     
     func populateTableView() {
@@ -76,7 +75,7 @@ class TableViewController: UITableViewController {
     
         composerRef.observe(.childAdded, with: { snapshot in
             
-            self.excerpts.append(Excerpt.init(composer: snapshot.key, firstName: "Harold", pieces: snapshot.value as! [String]))
+            self.excerpts.append(Excerpt.init(composer: snapshot.key, pieces: snapshot.value as! [String]))
             self.tableView.reloadData()
         })
     }

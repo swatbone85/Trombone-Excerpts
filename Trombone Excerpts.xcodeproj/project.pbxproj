@@ -14,45 +14,8 @@
 		45519E801F4371E900FB5BA4 /* ExcerptList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */; };
 		45519E8C1F43801500FB5BA4 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E8B1F43801500FB5BA4 /* PDFViewer.swift */; };
 		45519E941F43973100FB5BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45519E931F43973100FB5BA4 /* LaunchScreen.storyboard */; };
-		45BD34581F4D87EA00762866 /* Symphony no. 9 (Beethoven) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD340E1F4D87E900762866 /* Symphony no. 9 (Beethoven) Bass.pdf */; };
-		45BD34591F4D87EA00762866 /* Hungarian March (Berlioz) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34101F4D87E900762866 /* Hungarian March (Berlioz) Bass.pdf */; };
-		45BD345A1F4D87EA00762866 /* Symphony no. 7 (Bruckner) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34121F4D87E900762866 /* Symphony no. 7 (Bruckner) Bass.pdf */; };
-		45BD345B1F4D87EA00762866 /* Symphony in D minor (Franck) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34141F4D87E900762866 /* Symphony in D minor (Franck) Bass.pdf */; };
-		45BD345C1F4D87EA00762866 /* The Creation (Haydn) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34161F4D87E900762866 /* The Creation (Haydn) Bass.pdf */; };
-		45BD345D1F4D87EA00762866 /* Requiem (Mozart) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34181F4D87E900762866 /* Requiem (Mozart) Bass.pdf */; };
-		45BD345E1F4D87EA00762866 /* Fountains of Rome (Respighi) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD341A1F4D87E900762866 /* Fountains of Rome (Respighi) Bass.pdf */; };
-		45BD345F1F4D87EA00762866 /* La Gazza Ladra (Rossini) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD341C1F4D87E900762866 /* La Gazza Ladra (Rossini) Bass.pdf */; };
-		45BD34601F4D87EA00762866 /* William Tell Overture (Rossini) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD341D1F4D87E900762866 /* William Tell Overture (Rossini) Bass.pdf */; };
-		45BD34611F4D87EA00762866 /* Symphony no. 3 Rhenish (Schumann) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD341F1F4D87E900762866 /* Symphony no. 3 Rhenish (Schumann) Bass.pdf */; };
-		45BD34621F4D87EA00762866 /* Das Rheingold (Wagner) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34211F4D87E900762866 /* Das Rheingold (Wagner) Bass.pdf */; };
-		45BD34631F4D87EA00762866 /* Lohengrin (Wagner) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34221F4D87E900762866 /* Lohengrin (Wagner) Bass.pdf */; };
-		45BD34641F4D87EA00762866 /* Ride of the Valkyries (Wagner) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34231F4D87E900762866 /* Ride of the Valkyries (Wagner) Bass.pdf */; };
-		45BD34651F4D87EA00762866 /* Tannhauser Overture (Wagner) Bass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34241F4D87E900762866 /* Tannhauser Overture (Wagner) Bass.pdf */; };
-		45BD34661F4D87EA00762866 /* Fidelio Overture (Beethoven) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34271F4D87E900762866 /* Fidelio Overture (Beethoven) tenor.pdf */; };
-		45BD34681F4D87EA00762866 /* Symphony no. 5 (Beethoven) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34291F4D87E900762866 /* Symphony no. 5 (Beethoven) tenor.pdf */; };
-		45BD346A1F4D87EA00762866 /* Symphony no. 9 (Beethoven) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD342B1F4D87E900762866 /* Symphony no. 9 (Beethoven) tenor.pdf */; };
-		45BD346C1F4D87EA00762866 /* Hungarian March (Berlioz) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD342E1F4D87E900762866 /* Hungarian March (Berlioz) tenor.pdf */; };
-		45BD346E1F4D87EA00762866 /* Roman Carnival Overture (Berlioz) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34301F4D87E900762866 /* Roman Carnival Overture (Berlioz) tenor.pdf */; };
-		45BD34701F4D87EA00762866 /* Symphonie Fantastique (Berlioz) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34321F4D87E900762866 /* Symphonie Fantastique (Berlioz) tenor.pdf */; };
-		45BD34711F4D87EA00762866 /* Symphony no. 1 (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34341F4D87E900762866 /* Symphony no. 1 (Brahms) tenor.pdf */; };
-		45BD34731F4D87EA00762866 /* Symphony no. 2 (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34361F4D87EA00762866 /* Symphony no. 2 (Brahms) tenor.pdf */; };
-		45BD34751F4D87EA00762866 /* Symphony no. 3 (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34381F4D87EA00762866 /* Symphony no. 3 (Brahms) tenor.pdf */; };
-		45BD34771F4D87EA00762866 /* Symphony no. 4 (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD343A1F4D87EA00762866 /* Symphony no. 4 (Brahms) tenor.pdf */; };
-		45BD34791F4D87EA00762866 /* Symphony no. 3 (Mahler) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD343D1F4D87EA00762866 /* Symphony no. 3 (Mahler) tenor.pdf */; };
-		45BD347B1F4D87EA00762866 /* Symphony no. 5 (Mahler) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD343F1F4D87EA00762866 /* Symphony no. 5 (Mahler) tenor.pdf */; };
-		45BD347D1F4D87EA00762866 /* Requiem (Mozart) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34421F4D87EA00762866 /* Requiem (Mozart) tenor.pdf */; };
-		45BD347F1F4D87EA00762866 /* Bolero (Ravel) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34451F4D87EA00762866 /* Bolero (Ravel) tenor.pdf */; };
-		45BD34811F4D87EA00762866 /* La Gazza Ladra (Rossini) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34481F4D87EA00762866 /* La Gazza Ladra (Rossini) tenor.pdf */; };
-		45BD34821F4D87EA00762866 /* William Tell Overture (Rossini) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34491F4D87EA00762866 /* William Tell Overture (Rossini) tenor.pdf */; };
-		45BD34841F4D87EA00762866 /* Symphony no. 3 Organ (Saint-Saens) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD344C1F4D87EA00762866 /* Symphony no. 3 Organ (Saint-Saens) tenor.pdf */; };
-		45BD34861F4D87EA00762866 /* Symphony no. 3 Rhenish (Schumann) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD344F1F4D87EA00762866 /* Symphony no. 3 Rhenish (Schumann) tenor.pdf */; };
-		45BD34871F4D87EA00762866 /* Till Eulenspiegel (Strauss) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34511F4D87EA00762866 /* Till Eulenspiegel (Strauss) tenor.pdf */; };
-		45BD34881F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34531F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf */; };
-		45BD34891F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */; };
-		45BD348C1F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */; };
+		458B262B2049CFB2007274FF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B262A2049CFB2007274FF /* ActivityIndicator.swift */; };
 		45E19CAF204811ED0084A68A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E19CAE204811ED0084A68A /* GoogleService-Info.plist */; };
-		45E19CB2204827F30084A68A /* Excerpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E19CB1204827F30084A68A /* Excerpt.swift */; };
-		45FD7F841F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */; };
 		E546E2E9341432074171D52A /* Pods_Trombone_Excerpts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */; };
 		E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */; };
 /* End PBXBuildFile section */
@@ -68,45 +31,8 @@
 		45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcerptList.swift; sourceTree = "<group>"; };
 		45519E8B1F43801500FB5BA4 /* PDFViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
 		45519E931F43973100FB5BA4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		45BD340E1F4D87E900762866 /* Symphony no. 9 (Beethoven) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 9 (Beethoven) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34101F4D87E900762866 /* Hungarian March (Berlioz) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hungarian March (Berlioz) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34121F4D87E900762866 /* Symphony no. 7 (Bruckner) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 7 (Bruckner) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34141F4D87E900762866 /* Symphony in D minor (Franck) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony in D minor (Franck) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34161F4D87E900762866 /* The Creation (Haydn) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Creation (Haydn) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34181F4D87E900762866 /* Requiem (Mozart) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Requiem (Mozart) Bass.pdf"; sourceTree = "<group>"; };
-		45BD341A1F4D87E900762866 /* Fountains of Rome (Respighi) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fountains of Rome (Respighi) Bass.pdf"; sourceTree = "<group>"; };
-		45BD341C1F4D87E900762866 /* La Gazza Ladra (Rossini) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "La Gazza Ladra (Rossini) Bass.pdf"; sourceTree = "<group>"; };
-		45BD341D1F4D87E900762866 /* William Tell Overture (Rossini) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "William Tell Overture (Rossini) Bass.pdf"; sourceTree = "<group>"; };
-		45BD341F1F4D87E900762866 /* Symphony no. 3 Rhenish (Schumann) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 3 Rhenish (Schumann) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34211F4D87E900762866 /* Das Rheingold (Wagner) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Das Rheingold (Wagner) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34221F4D87E900762866 /* Lohengrin (Wagner) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lohengrin (Wagner) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34231F4D87E900762866 /* Ride of the Valkyries (Wagner) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ride of the Valkyries (Wagner) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34241F4D87E900762866 /* Tannhauser Overture (Wagner) Bass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tannhauser Overture (Wagner) Bass.pdf"; sourceTree = "<group>"; };
-		45BD34271F4D87E900762866 /* Fidelio Overture (Beethoven) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fidelio Overture (Beethoven) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34291F4D87E900762866 /* Symphony no. 5 (Beethoven) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 5 (Beethoven) tenor.pdf"; sourceTree = "<group>"; };
-		45BD342B1F4D87E900762866 /* Symphony no. 9 (Beethoven) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 9 (Beethoven) tenor.pdf"; sourceTree = "<group>"; };
-		45BD342E1F4D87E900762866 /* Hungarian March (Berlioz) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hungarian March (Berlioz) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34301F4D87E900762866 /* Roman Carnival Overture (Berlioz) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Roman Carnival Overture (Berlioz) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34321F4D87E900762866 /* Symphonie Fantastique (Berlioz) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphonie Fantastique (Berlioz) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34341F4D87E900762866 /* Symphony no. 1 (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 1 (Brahms) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34361F4D87EA00762866 /* Symphony no. 2 (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 2 (Brahms) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34381F4D87EA00762866 /* Symphony no. 3 (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 3 (Brahms) tenor.pdf"; sourceTree = "<group>"; };
-		45BD343A1F4D87EA00762866 /* Symphony no. 4 (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 4 (Brahms) tenor.pdf"; sourceTree = "<group>"; };
-		45BD343D1F4D87EA00762866 /* Symphony no. 3 (Mahler) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 3 (Mahler) tenor.pdf"; sourceTree = "<group>"; };
-		45BD343F1F4D87EA00762866 /* Symphony no. 5 (Mahler) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 5 (Mahler) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34421F4D87EA00762866 /* Requiem (Mozart) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Requiem (Mozart) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34451F4D87EA00762866 /* Bolero (Ravel) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Bolero (Ravel) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34481F4D87EA00762866 /* La Gazza Ladra (Rossini) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "La Gazza Ladra (Rossini) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34491F4D87EA00762866 /* William Tell Overture (Rossini) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "William Tell Overture (Rossini) tenor.pdf"; sourceTree = "<group>"; };
-		45BD344C1F4D87EA00762866 /* Symphony no. 3 Organ (Saint-Saens) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 3 Organ (Saint-Saens) tenor.pdf"; sourceTree = "<group>"; };
-		45BD344F1F4D87EA00762866 /* Symphony no. 3 Rhenish (Schumann) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Symphony no. 3 Rhenish (Schumann) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34511F4D87EA00762866 /* Till Eulenspiegel (Strauss) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Till Eulenspiegel (Strauss) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34531F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Lohengrin act 3 (Wagner) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ride of the Valkyries (Wagner) tenor.pdf"; sourceTree = "<group>"; };
-		45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tannhauser Overture (Wagner) tenor.pdf"; sourceTree = "<group>"; };
+		458B262A2049CFB2007274FF /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		45E19CAE204811ED0084A68A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		45E19CB1204827F30084A68A /* Excerpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excerpt.swift; sourceTree = "<group>"; };
-		45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Academic Festival Overture (Brahms) tenor.pdf"; sourceTree = "<group>"; };
 		48B35E053A8BA63F98A91C68 /* Pods-Trombone Excerpts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trombone Excerpts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts.debug.xcconfig"; sourceTree = "<group>"; };
 		86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trombone_Excerpts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BassTromboneTableVC.swift; sourceTree = "<group>"; };
@@ -124,15 +50,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		454F9B1A1F44B2C90053D6C4 /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				45BD340C1F4D87E900762866 /* Bass */,
-				45BD34251F4D87E900762866 /* Tenor */,
-			);
-			name = PDF;
-			sourceTree = "<group>";
-		};
 		45519E611F436DC200FB5BA4 = {
 			isa = PBXGroup;
 			children = (
@@ -154,249 +71,27 @@
 		45519E6C1F436DC200FB5BA4 /* Trombone Excerpts */ = {
 			isa = PBXGroup;
 			children = (
-				45E19CB0204827D90084A68A /* Models */,
+				458B26292049CC8E007274FF /* Models */,
 				45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */,
 				45519E6F1F436DC300FB5BA4 /* TableVC.swift */,
 				E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */,
 				45519E8B1F43801500FB5BA4 /* PDFViewer.swift */,
-				45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */,
 				45519E711F436DC400FB5BA4 /* Main.storyboard */,
 				45519E741F436DC400FB5BA4 /* Assets.xcassets */,
 				45519E791F436DC600FB5BA4 /* Info.plist */,
 				45E19CAE204811ED0084A68A /* GoogleService-Info.plist */,
 				45519E931F43973100FB5BA4 /* LaunchScreen.storyboard */,
-				454F9B1A1F44B2C90053D6C4 /* PDF */,
 			);
 			path = "Trombone Excerpts";
 			sourceTree = "<group>";
 		};
-		45BD340C1F4D87E900762866 /* Bass */ = {
+		458B26292049CC8E007274FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				45BD340D1F4D87E900762866 /* Beethoven */,
-				45BD340F1F4D87E900762866 /* Berlioz */,
-				45BD34111F4D87E900762866 /* Bruckner */,
-				45BD34131F4D87E900762866 /* Franck */,
-				45BD34151F4D87E900762866 /* Haydn */,
-				45BD34171F4D87E900762866 /* Mozart */,
-				45BD34191F4D87E900762866 /* Respighi */,
-				45BD341B1F4D87E900762866 /* Rossini */,
-				45BD341E1F4D87E900762866 /* Schumann */,
-				45BD34201F4D87E900762866 /* Wagner */,
+				45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */,
+				458B262A2049CFB2007274FF /* ActivityIndicator.swift */,
 			);
-			name = Bass;
-			path = PDF/Bass;
-			sourceTree = "<group>";
-		};
-		45BD340D1F4D87E900762866 /* Beethoven */ = {
-			isa = PBXGroup;
-			children = (
-				45BD340E1F4D87E900762866 /* Symphony no. 9 (Beethoven) Bass.pdf */,
-			);
-			path = Beethoven;
-			sourceTree = "<group>";
-		};
-		45BD340F1F4D87E900762866 /* Berlioz */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34101F4D87E900762866 /* Hungarian March (Berlioz) Bass.pdf */,
-			);
-			path = Berlioz;
-			sourceTree = "<group>";
-		};
-		45BD34111F4D87E900762866 /* Bruckner */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34121F4D87E900762866 /* Symphony no. 7 (Bruckner) Bass.pdf */,
-			);
-			path = Bruckner;
-			sourceTree = "<group>";
-		};
-		45BD34131F4D87E900762866 /* Franck */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34141F4D87E900762866 /* Symphony in D minor (Franck) Bass.pdf */,
-			);
-			path = Franck;
-			sourceTree = "<group>";
-		};
-		45BD34151F4D87E900762866 /* Haydn */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34161F4D87E900762866 /* The Creation (Haydn) Bass.pdf */,
-			);
-			path = Haydn;
-			sourceTree = "<group>";
-		};
-		45BD34171F4D87E900762866 /* Mozart */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34181F4D87E900762866 /* Requiem (Mozart) Bass.pdf */,
-			);
-			path = Mozart;
-			sourceTree = "<group>";
-		};
-		45BD34191F4D87E900762866 /* Respighi */ = {
-			isa = PBXGroup;
-			children = (
-				45BD341A1F4D87E900762866 /* Fountains of Rome (Respighi) Bass.pdf */,
-			);
-			path = Respighi;
-			sourceTree = "<group>";
-		};
-		45BD341B1F4D87E900762866 /* Rossini */ = {
-			isa = PBXGroup;
-			children = (
-				45BD341C1F4D87E900762866 /* La Gazza Ladra (Rossini) Bass.pdf */,
-				45BD341D1F4D87E900762866 /* William Tell Overture (Rossini) Bass.pdf */,
-			);
-			path = Rossini;
-			sourceTree = "<group>";
-		};
-		45BD341E1F4D87E900762866 /* Schumann */ = {
-			isa = PBXGroup;
-			children = (
-				45BD341F1F4D87E900762866 /* Symphony no. 3 Rhenish (Schumann) Bass.pdf */,
-			);
-			path = Schumann;
-			sourceTree = "<group>";
-		};
-		45BD34201F4D87E900762866 /* Wagner */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34211F4D87E900762866 /* Das Rheingold (Wagner) Bass.pdf */,
-				45BD34221F4D87E900762866 /* Lohengrin (Wagner) Bass.pdf */,
-				45BD34231F4D87E900762866 /* Ride of the Valkyries (Wagner) Bass.pdf */,
-				45BD34241F4D87E900762866 /* Tannhauser Overture (Wagner) Bass.pdf */,
-			);
-			path = Wagner;
-			sourceTree = "<group>";
-		};
-		45BD34251F4D87E900762866 /* Tenor */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34261F4D87E900762866 /* Beethoven */,
-				45BD342D1F4D87E900762866 /* Berlioz */,
-				45BD34331F4D87E900762866 /* Brahms */,
-				45BD343C1F4D87EA00762866 /* Mahler */,
-				45BD34411F4D87EA00762866 /* Mozart */,
-				45BD34441F4D87EA00762866 /* Ravel */,
-				45BD34471F4D87EA00762866 /* Rossini */,
-				45BD344B1F4D87EA00762866 /* Saint-Saens */,
-				45BD344E1F4D87EA00762866 /* Schumann */,
-				45BD34501F4D87EA00762866 /* Strauss, Richard */,
-				45BD34521F4D87EA00762866 /* Wagner */,
-			);
-			name = Tenor;
-			path = PDF/Tenor;
-			sourceTree = "<group>";
-		};
-		45BD34261F4D87E900762866 /* Beethoven */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34271F4D87E900762866 /* Fidelio Overture (Beethoven) tenor.pdf */,
-				45BD34291F4D87E900762866 /* Symphony no. 5 (Beethoven) tenor.pdf */,
-				45BD342B1F4D87E900762866 /* Symphony no. 9 (Beethoven) tenor.pdf */,
-			);
-			path = Beethoven;
-			sourceTree = "<group>";
-		};
-		45BD342D1F4D87E900762866 /* Berlioz */ = {
-			isa = PBXGroup;
-			children = (
-				45BD342E1F4D87E900762866 /* Hungarian March (Berlioz) tenor.pdf */,
-				45BD34301F4D87E900762866 /* Roman Carnival Overture (Berlioz) tenor.pdf */,
-				45BD34321F4D87E900762866 /* Symphonie Fantastique (Berlioz) tenor.pdf */,
-			);
-			path = Berlioz;
-			sourceTree = "<group>";
-		};
-		45BD34331F4D87E900762866 /* Brahms */ = {
-			isa = PBXGroup;
-			children = (
-				45FD7F831F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf */,
-				45BD34341F4D87E900762866 /* Symphony no. 1 (Brahms) tenor.pdf */,
-				45BD34361F4D87EA00762866 /* Symphony no. 2 (Brahms) tenor.pdf */,
-				45BD34381F4D87EA00762866 /* Symphony no. 3 (Brahms) tenor.pdf */,
-				45BD343A1F4D87EA00762866 /* Symphony no. 4 (Brahms) tenor.pdf */,
-			);
-			path = Brahms;
-			sourceTree = "<group>";
-		};
-		45BD343C1F4D87EA00762866 /* Mahler */ = {
-			isa = PBXGroup;
-			children = (
-				45BD343D1F4D87EA00762866 /* Symphony no. 3 (Mahler) tenor.pdf */,
-				45BD343F1F4D87EA00762866 /* Symphony no. 5 (Mahler) tenor.pdf */,
-			);
-			path = Mahler;
-			sourceTree = "<group>";
-		};
-		45BD34411F4D87EA00762866 /* Mozart */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34421F4D87EA00762866 /* Requiem (Mozart) tenor.pdf */,
-			);
-			path = Mozart;
-			sourceTree = "<group>";
-		};
-		45BD34441F4D87EA00762866 /* Ravel */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34451F4D87EA00762866 /* Bolero (Ravel) tenor.pdf */,
-			);
-			path = Ravel;
-			sourceTree = "<group>";
-		};
-		45BD34471F4D87EA00762866 /* Rossini */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34481F4D87EA00762866 /* La Gazza Ladra (Rossini) tenor.pdf */,
-				45BD34491F4D87EA00762866 /* William Tell Overture (Rossini) tenor.pdf */,
-			);
-			path = Rossini;
-			sourceTree = "<group>";
-		};
-		45BD344B1F4D87EA00762866 /* Saint-Saens */ = {
-			isa = PBXGroup;
-			children = (
-				45BD344C1F4D87EA00762866 /* Symphony no. 3 Organ (Saint-Saens) tenor.pdf */,
-			);
-			path = "Saint-Saens";
-			sourceTree = "<group>";
-		};
-		45BD344E1F4D87EA00762866 /* Schumann */ = {
-			isa = PBXGroup;
-			children = (
-				45BD344F1F4D87EA00762866 /* Symphony no. 3 Rhenish (Schumann) tenor.pdf */,
-			);
-			path = Schumann;
-			sourceTree = "<group>";
-		};
-		45BD34501F4D87EA00762866 /* Strauss, Richard */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34511F4D87EA00762866 /* Till Eulenspiegel (Strauss) tenor.pdf */,
-			);
-			path = "Strauss, Richard";
-			sourceTree = "<group>";
-		};
-		45BD34521F4D87EA00762866 /* Wagner */ = {
-			isa = PBXGroup;
-			children = (
-				45BD34531F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf */,
-				45BD34541F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf */,
-				45BD34571F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf */,
-			);
-			path = Wagner;
-			sourceTree = "<group>";
-		};
-		45E19CB0204827D90084A68A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				45E19CB1204827F30084A68A /* Excerpt.swift */,
-			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		68D7C1CBDF38570F9326A8C6 /* Frameworks */ = {
@@ -480,47 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45BD34681F4D87EA00762866 /* Symphony no. 5 (Beethoven) tenor.pdf in Resources */,
-				45BD34581F4D87EA00762866 /* Symphony no. 9 (Beethoven) Bass.pdf in Resources */,
-				45BD34791F4D87EA00762866 /* Symphony no. 3 (Mahler) tenor.pdf in Resources */,
-				45BD346A1F4D87EA00762866 /* Symphony no. 9 (Beethoven) tenor.pdf in Resources */,
-				45FD7F841F581056005AD926 /* Academic Festival Overture (Brahms) tenor.pdf in Resources */,
-				45BD34661F4D87EA00762866 /* Fidelio Overture (Beethoven) tenor.pdf in Resources */,
-				45BD34641F4D87EA00762866 /* Ride of the Valkyries (Wagner) Bass.pdf in Resources */,
-				45BD34601F4D87EA00762866 /* William Tell Overture (Rossini) Bass.pdf in Resources */,
-				45BD34631F4D87EA00762866 /* Lohengrin (Wagner) Bass.pdf in Resources */,
-				45BD34771F4D87EA00762866 /* Symphony no. 4 (Brahms) tenor.pdf in Resources */,
-				45BD34821F4D87EA00762866 /* William Tell Overture (Rossini) tenor.pdf in Resources */,
-				45BD345E1F4D87EA00762866 /* Fountains of Rome (Respighi) Bass.pdf in Resources */,
-				45BD34811F4D87EA00762866 /* La Gazza Ladra (Rossini) tenor.pdf in Resources */,
-				45BD34651F4D87EA00762866 /* Tannhauser Overture (Wagner) Bass.pdf in Resources */,
-				45BD34701F4D87EA00762866 /* Symphonie Fantastique (Berlioz) tenor.pdf in Resources */,
-				45BD346E1F4D87EA00762866 /* Roman Carnival Overture (Berlioz) tenor.pdf in Resources */,
-				45BD347B1F4D87EA00762866 /* Symphony no. 5 (Mahler) tenor.pdf in Resources */,
-				45BD348C1F4D87EA00762866 /* Tannhauser Overture (Wagner) tenor.pdf in Resources */,
-				45BD345C1F4D87EA00762866 /* The Creation (Haydn) Bass.pdf in Resources */,
-				45BD346C1F4D87EA00762866 /* Hungarian March (Berlioz) tenor.pdf in Resources */,
 				45519E751F436DC400FB5BA4 /* Assets.xcassets in Resources */,
-				45BD34871F4D87EA00762866 /* Till Eulenspiegel (Strauss) tenor.pdf in Resources */,
-				45BD34591F4D87EA00762866 /* Hungarian March (Berlioz) Bass.pdf in Resources */,
-				45BD34731F4D87EA00762866 /* Symphony no. 2 (Brahms) tenor.pdf in Resources */,
-				45BD345A1F4D87EA00762866 /* Symphony no. 7 (Bruckner) Bass.pdf in Resources */,
-				45BD34841F4D87EA00762866 /* Symphony no. 3 Organ (Saint-Saens) tenor.pdf in Resources */,
-				45BD34621F4D87EA00762866 /* Das Rheingold (Wagner) Bass.pdf in Resources */,
-				45BD34861F4D87EA00762866 /* Symphony no. 3 Rhenish (Schumann) tenor.pdf in Resources */,
-				45BD34881F4D87EA00762866 /* Lohengrin act 3 (Wagner) tenor.pdf in Resources */,
-				45BD34711F4D87EA00762866 /* Symphony no. 1 (Brahms) tenor.pdf in Resources */,
 				45519E941F43973100FB5BA4 /* LaunchScreen.storyboard in Resources */,
-				45BD345B1F4D87EA00762866 /* Symphony in D minor (Franck) Bass.pdf in Resources */,
-				45BD34611F4D87EA00762866 /* Symphony no. 3 Rhenish (Schumann) Bass.pdf in Resources */,
-				45BD345D1F4D87EA00762866 /* Requiem (Mozart) Bass.pdf in Resources */,
-				45BD34891F4D87EA00762866 /* Ride of the Valkyries (Wagner) tenor.pdf in Resources */,
-				45BD347F1F4D87EA00762866 /* Bolero (Ravel) tenor.pdf in Resources */,
-				45BD347D1F4D87EA00762866 /* Requiem (Mozart) tenor.pdf in Resources */,
-				45BD345F1F4D87EA00762866 /* La Gazza Ladra (Rossini) Bass.pdf in Resources */,
 				45519E731F436DC400FB5BA4 /* Main.storyboard in Resources */,
 				45E19CAF204811ED0084A68A /* GoogleService-Info.plist in Resources */,
-				45BD34751F4D87EA00762866 /* Symphony no. 3 (Brahms) tenor.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +194,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -543,6 +202,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -595,8 +255,8 @@
 				45519E701F436DC300FB5BA4 /* TableVC.swift in Sources */,
 				45519E801F4371E900FB5BA4 /* ExcerptList.swift in Sources */,
 				45519E8C1F43801500FB5BA4 /* PDFViewer.swift in Sources */,
+				458B262B2049CFB2007274FF /* ActivityIndicator.swift in Sources */,
 				45519E6E1F436DC300FB5BA4 /* AppDelegate.swift in Sources */,
-				45E19CB2204827F30084A68A /* Excerpt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import FirebaseStorage
+import FirebaseDatabase
 
 class BassTromboneTableVC: UITableViewController {
     
+    var storage = Storage()
+    var database = Database()
+    
     var chosenComposer = String()
     var chosenPiece = String()
+    var excerpts = [Excerpt]()
     
     let cellId = "cellId"
     let segueId = "bassSegue"
@@ -20,49 +26,47 @@ class BassTromboneTableVC: UITableViewController {
         super.viewDidLoad()
 
         setupNavBar()
+        populateTableView()
     }
 
-    // cellForRow
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         
-        cell.textLabel?.text = bassTromboneArray[indexPath.section].pieces[indexPath.row]
+        cell.textLabel?.text = excerpts[indexPath.section].pieces[indexPath.row]
         
         return cell
     }
     
-    // numberOfRows
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return bassTromboneArray[section].pieces.count
+        return excerpts[section].pieces.count
     }
     
-    // numberOfSections
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return bassTromboneArray.count
+        return excerpts.count
     }
     
-    // titleForHeader
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "\(bassTromboneArray[section].composer.uppercased()), \(bassTromboneArray[section].firstName)"
+        return "\(excerpts[section].composer)"
     }
     
-    // didSelectRow
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        chosenComposer = bassTromboneArray[indexPath.section].composer
-        chosenPiece = bassTromboneArray[indexPath.section].pieces[indexPath.row]
+        chosenComposer = excerpts[indexPath.section].composer
+        chosenPiece = excerpts[indexPath.section].pieces[indexPath.row]
         
         performSegue(withIdentifier: segueId, sender: self)
         
     }
 
-    // prepareSegue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
+        storage = Storage.storage()
+        
         let destVC = segue.destination as? PDFViewer
         
         destVC?.title = "\(chosenPiece) (\(chosenComposer))"
-        destVC?.pdfTitle = "\(chosenPiece) (\(chosenComposer)) Bass"
+        destVC?.filePath = "\(chosenComposer)/\(chosenPiece) (\(chosenComposer)).pdf"
+        destVC?.instrument = "Bass Trombone"
     }
     
     func setupNavBar() {
@@ -70,5 +74,16 @@ class BassTromboneTableVC: UITableViewController {
             navigationController?.navigationBar.prefersLargeTitles = true
         }
     }
-
+    
+    func populateTableView() {
+        database = Database.database()
+        let databaseRef = database.reference()
+        let composerRef = databaseRef.child("bass_trombone")
+            
+        composerRef.observe(.childAdded, with: { snapshot in
+                
+            self.excerpts.append(Excerpt.init(composer: snapshot.key, pieces: snapshot.value as! [String]))
+            self.tableView.reloadData()
+        })
+    }
 }
