@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45519E6E1F436DC300FB5BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */; };
-		45519E701F436DC300FB5BA4 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E6F1F436DC300FB5BA4 /* TableVC.swift */; };
+		45519E701F436DC300FB5BA4 /* TenorTromboneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E6F1F436DC300FB5BA4 /* TenorTromboneVC.swift */; };
 		45519E751F436DC400FB5BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45519E741F436DC400FB5BA4 /* Assets.xcassets */; };
 		45519E801F4371E900FB5BA4 /* ExcerptList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */; };
 		45519E8C1F43801500FB5BA4 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45519E8B1F43801500FB5BA4 /* PDFViewer.swift */; };
@@ -16,14 +16,14 @@
 		458B262B2049CFB2007274FF /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B262A2049CFB2007274FF /* ActivityIndicator.swift */; };
 		45E19CAF204811ED0084A68A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E19CAE204811ED0084A68A /* GoogleService-Info.plist */; };
 		E546E2E9341432074171D52A /* Pods_Trombone_Excerpts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */; };
-		E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */; };
+		E93AB4B71F4C07090058ED8A /* BassTromboneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93AB4B61F4C07090058ED8A /* BassTromboneVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E0DCDB7711B8C7F4D473ECD /* Pods-Trombone Excerpts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trombone Excerpts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts.release.xcconfig"; sourceTree = "<group>"; };
 		45519E6A1F436DC200FB5BA4 /* Trombone Excerpts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trombone Excerpts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45519E6F1F436DC300FB5BA4 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		45519E6F1F436DC300FB5BA4 /* TenorTromboneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorTromboneVC.swift; sourceTree = "<group>"; };
 		45519E741F436DC400FB5BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45519E791F436DC600FB5BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45519E7F1F4371E900FB5BA4 /* ExcerptList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcerptList.swift; sourceTree = "<group>"; };
@@ -33,7 +33,7 @@
 		45E19CAE204811ED0084A68A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		48B35E053A8BA63F98A91C68 /* Pods-Trombone Excerpts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trombone Excerpts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts.debug.xcconfig"; sourceTree = "<group>"; };
 		86130D61CD39E0FE901A9BD7 /* Pods_Trombone_Excerpts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trombone_Excerpts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BassTromboneTableVC.swift; sourceTree = "<group>"; };
+		E93AB4B61F4C07090058ED8A /* BassTromboneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BassTromboneVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 			children = (
 				458B26292049CC8E007274FF /* Models */,
 				45519E6D1F436DC300FB5BA4 /* AppDelegate.swift */,
-				45519E6F1F436DC300FB5BA4 /* TableVC.swift */,
-				E93AB4B61F4C07090058ED8A /* BassTromboneTableVC.swift */,
+				45519E6F1F436DC300FB5BA4 /* TenorTromboneVC.swift */,
+				E93AB4B61F4C07090058ED8A /* BassTromboneVC.swift */,
 				45519E8B1F43801500FB5BA4 /* PDFViewer.swift */,
 				45519E741F436DC400FB5BA4 /* Assets.xcassets */,
 				45519E791F436DC600FB5BA4 /* Info.plist */,
@@ -119,6 +119,7 @@
 				45519E661F436DC200FB5BA4 /* Sources */,
 				45519E671F436DC200FB5BA4 /* Frameworks */,
 				45519E681F436DC200FB5BA4 /* Resources */,
+				7C7819F5EF29B2950BB538D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +180,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7C7819F5EF29B2950BB538D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trombone Excerpts/Pods-Trombone Excerpts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C10AF213162646C0BC42C0F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,8 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93AB4B71F4C07090058ED8A /* BassTromboneTableVC.swift in Sources */,
-				45519E701F436DC300FB5BA4 /* TableVC.swift in Sources */,
+				E93AB4B71F4C07090058ED8A /* BassTromboneVC.swift in Sources */,
+				45519E701F436DC300FB5BA4 /* TenorTromboneVC.swift in Sources */,
 				45519E801F4371E900FB5BA4 /* ExcerptList.swift in Sources */,
 				45519E8C1F43801500FB5BA4 /* PDFViewer.swift in Sources */,
 				458B262B2049CFB2007274FF /* ActivityIndicator.swift in Sources */,

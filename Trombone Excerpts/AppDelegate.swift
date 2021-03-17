@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,14 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        UIApplication.shared.isStatusBarHidden = false
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        let tabBarController = UITabBarController()
+        let tenorNavigationController = UINavigationController(rootViewController: TableViewController())
         
-        UINavigationBar.appearance().tintColor = UIColor.white
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+        tabBarController.viewControllers = [tenorNavigationController]
+        window?.rootViewController = tabBarController
         
-        if #available(iOS 11.0, *) {
-            UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        }
+        FirebaseApp.configure()
         
         return true
     }

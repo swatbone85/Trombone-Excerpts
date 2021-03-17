@@ -1,7 +1,6 @@
 import UIKit
-import WebKit
 
-class PDFViewer: UIViewController, WKNavigationDelegate {
+class PDFViewer: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
