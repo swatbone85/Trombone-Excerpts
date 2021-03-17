@@ -1,0 +1,6 @@
+framework module Pods_Trombone_Excerpts {
+  umbrella header "Pods-Trombone Excerpts-umbrella.h"
+
+  export *
+  module * { export * }
+}
